@@ -7,7 +7,7 @@ import Button from './Button';
 
 storiesOf("Button", module)
     .addDecorator(withDesign)
-    .add("primary",()=><Button>Primary</Button>,{
+    .add("primary",()=><Button>Primary1</Button>,{
         design: {
             type: 'figma',
             url:
