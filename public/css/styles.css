@@ -1,0 +1,27 @@
+.text-white {
+  color: #fff;
+}
+
+.btn-critical {
+  background-color: red;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.nav-link {
+  cursor: pointer;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.bg-thema-blue-dark {
+  background-color: #2a3652;
+}
+
+.btn-group-xl > .btn, .btn-xl {
+  padding: .75rem 1.25rem;
+  font-size: 1.5rem;
+  border-radius: .4rem;
+}

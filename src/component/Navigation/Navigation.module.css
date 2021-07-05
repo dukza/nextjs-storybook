@@ -1,0 +1,8 @@
+@import url("./../../../public/css/storybook.css");
+@import url("./../../../public/css/styles.css");
+@import url("./../../../public/icomoon/style.css");
+
+
+.navbar{
+  min-width: 1360px;
+}
