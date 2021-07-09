@@ -5,7 +5,7 @@ import './Button.module.css';
 
 
 
-// component
+// component-1
 import Link from './../Link';
 export default function Button ({
     children,
