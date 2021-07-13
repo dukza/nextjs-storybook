@@ -1,7 +1,8 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
 import { addons } from '@storybook/addons';
-import { withDesign } from 'storybook-addon-designs'
+import { withDesign } from 'storybook-addon-designs';
+
 // component
 import Button from './Button';
 
