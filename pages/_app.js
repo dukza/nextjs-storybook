@@ -15,6 +15,7 @@ function MyApp({ Component, pageProps }) {
   const section_con = classNames(
     "container-fluid","flex-grow-1"
   );
+  const prefix = process.env.NODE_ENV === 'production' ? 'https://dukza.github.io/nextjs-storybook/' : '';
   return (
     <>
     <div className="h-100 d-flex flex-column">
