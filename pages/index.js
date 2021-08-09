@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 import Button from './../src/component/Button';
 
 export default function Home() {
-  console.log(Plus)
+  // console.log(Plus)
   return ( 
     <div>
      <Button component="button" color="dark" size="lg" className="rounded-pill">자세히보기</Button>
