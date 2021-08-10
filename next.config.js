@@ -1,4 +1,7 @@
-const withCSS = require("@zeit/next-css");
-module.exports = withCSS({
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://dukza.github.io/nextjs-storybook/' : ''
-});
+module.exports = {
+  images: {
+    loader: "imgix",
+    path: "https://noop/",
+ },
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://boramyy.github.io/invitation' : ''
+}
