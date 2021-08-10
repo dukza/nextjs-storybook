@@ -1,0 +1,7 @@
+@import url("./bootstrap.css");
+@import url("./../icomoon/style.css");
+@import url("./styles.css");
+
+html, body, #__next{
+    height: 100%; 
+}
