@@ -1,7 +1,7 @@
 module.exports = {
   images: {
     loader: "imgix",
-    path: "https://noop/",
+    path: "https://dukza.github.io/nextjs-storybook/",
  },
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://boramyy.github.io/invitation' : ''
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://dukza.github.io/nextjs-storybook/' : ''
 }
