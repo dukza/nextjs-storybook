@@ -56,6 +56,7 @@ export default function Navigation () {
         e.preventDefault();
         // console.log(e.target.name)
         if(e.target.name === "home"){
+            console.log('home')
             router.push("/");
         }else if(e.target.name === "store"){
             console.log('store')
@@ -99,7 +100,7 @@ export default function Navigation () {
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-thema-blue-dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand"><span className="icon icon-logo h1" style={{...logo}}></span></a>
+                    <a className="navbar-brand" name="home" onClick={goLink}><span className="icon icon-logo h1" style={{...logo}}></span></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>

@@ -28,7 +28,7 @@ const Icon = ({
     ...attributes
 }) => {
     const [change, setChange] = useState(0)
-
+    
     useMemo(() => setChange(change + 1), [name, JSON.stringify[content]])
   
     const iconName = useMemo(()=>{
@@ -74,6 +74,7 @@ const Icon = ({
         className
     )
     const classes = customClasses || computedClasses
+    console.log('iconCode',titleCode)
     return(
         <>
         <svg

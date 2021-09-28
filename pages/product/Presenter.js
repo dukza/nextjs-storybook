@@ -1,4 +1,4 @@
-import Button from "../../src/component/Buttons/Button";
+import Button from "./../../src/component/Buttons/Button.tsx"
 
 export default function Presenter () {
     return(

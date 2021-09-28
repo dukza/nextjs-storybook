@@ -1,18 +1,13 @@
-import React from 'react';
-import classNames from 'classnames';
-// style
-import './Button.module.css';
-
-
-
-// component-1
-import Link from './../Link';
+import React from 'react'
+import classNames from 'classnames'
+// component
+import Link from './Link';
 export default function Button ({
     children,
     className,
-    component = 'button',
+    component = 'Button',
     variant,
-    color = 'primary',
+    color,
     type,
     size,
     shape,

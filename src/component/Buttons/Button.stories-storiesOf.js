@@ -1,4 +1,5 @@
 import React from 'react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
 import {storiesOf} from '@storybook/react';
 import { addons } from '@storybook/addons';
 import { withDesign } from 'storybook-addon-designs';
@@ -14,6 +15,7 @@ storiesOf("Button", module)
             url:
               'https://www.figma.com/file/6ahWdulcdjFOWAiLNofrrr/Espresso-Cafe24?node-id=3%3A86',
         }
+
     })
     .add("dark",()=>(<Button color="dark">Dark</Button>))
     .add("success",()=>(<Button color="success">Success</Button>))
